@@ -70,7 +70,7 @@ def main():
     model.summary()
 
     # Load image
-    img = read_image('../data/bus.jpg')
+    img = read_image('/Users/stin/Documents/data/Crowd_PETS09/S2/L2/Time_14-55/View_001/frame_0000.jpg')
 
     # Inference
     boxes, scores, classes, valid_detections = model.predict(img)
